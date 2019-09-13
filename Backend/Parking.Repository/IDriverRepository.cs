@@ -1,0 +1,9 @@
+using Parking.Domain;
+
+namespace Parking.Repository
+{
+    public interface IDriverRepository:IRepository<Driver>
+    {
+         
+    }
+}
