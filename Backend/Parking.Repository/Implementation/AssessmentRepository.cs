@@ -77,7 +77,21 @@ namespace Parking.Repository.Implementation
 
         public bool Update(Assessment entity)
         {
-            throw new System.NotImplementedException();
+            try{
+                
+                var assessment =context.assessments.Single(x => x.Id == entity.Id);
+                assessment.Id = entity.Id;
+                assessment.Rate = entity.Rate;
+                assessment.Comments = entity.Comments;
+
+                context.Update(assessment);
+                context.SaveChanges();
+
+            }catch(System.Exception){
+                return false;
+
+            }
+            return true;
         }
     }
 }

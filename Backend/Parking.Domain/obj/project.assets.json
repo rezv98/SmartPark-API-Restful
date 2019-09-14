@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cesar Gutierrez\\.nuget\\packages\\": {},
+    "C:\\Users\\Jose4\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\Parking.Domain.csproj",
+      "projectUniqueName": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj",
       "projectName": "Parking.Domain",
-      "projectPath": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\Parking.Domain.csproj",
-      "packagesPath": "C:\\Users\\Cesar Gutierrez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\obj\\",
+      "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj",
+      "packagesPath": "C:\\Users\\Jose4\\.nuget\\packages\\",
+      "outputPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cesar Gutierrez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jose4\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -203,7 +203,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://packagesource": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

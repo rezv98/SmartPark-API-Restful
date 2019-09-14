@@ -1,33 +1,40 @@
 using System.Collections.Generic;
 using Parking.Domain;
+using Parking.Repository;
 
 namespace Parking.Service.Implementation
 {
     public class VehicleService : IVehicleService
     {
+        private IVehicleRepository vehicleRepository;
+
+        public VehicleService(IVehicleRepository vehicleRepository) {
+            this.vehicleRepository = vehicleRepository;
+        }
+
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return vehicleRepository.Delete(id);
         }
 
         public Vehicle Get(int id)
         {
-            throw new System.NotImplementedException();
+            return vehicleRepository.Get(id);
         }
 
         public IEnumerable<Vehicle> GetAll()
         {
-            throw new System.NotImplementedException();
+            return vehicleRepository.GetAll();
         }
 
         public bool Save(Vehicle entity)
         {
-            throw new System.NotImplementedException();
+            return vehicleRepository.Save(entity);
         }
 
         public bool Update(Vehicle entity)
         {
-            throw new System.NotImplementedException();
+            return vehicleRepository.Update(entity);
         }
     }
 }

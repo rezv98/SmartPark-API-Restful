@@ -1,33 +1,42 @@
 using System.Collections.Generic;
 using Parking.Domain;
+using Parking.Repository;
 
 namespace Parking.Service.Implementation
 {
     public class AssessmentService : IAssessmentService
     {
+        private IAssessmentRepository assessmentRepository;
+
+        public AssessmentService(IAssessmentRepository assessmentRepository) {
+
+            this.assessmentRepository=assessmentRepository;
+        }
+
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return assessmentRepository.Delete(id);
         }
 
         public Assessment Get(int id)
         {
-            throw new System.NotImplementedException();
+            return assessmentRepository.Get(id);
         }
 
         public IEnumerable<Assessment> GetAll()
         {
-            throw new System.NotImplementedException();
+            return assessmentRepository.GetAll();
         }
 
         public bool Save(Assessment entity)
         {
-            throw new System.NotImplementedException();
+            return assessmentRepository.Save(entity);
         }
 
         public bool Update(Assessment entity)
         {
-            throw new System.NotImplementedException();
+            
+            return assessmentRepository.Update(entity);
         }
     }
 }

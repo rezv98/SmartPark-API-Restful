@@ -19,3 +19,24 @@ C:\Users\Cesar Gutierrez\Desktop\MOVILES\SMARTPARK\SmartparK_Api\Creador proyect
 C:\Users\Cesar Gutierrez\Desktop\MOVILES\SMARTPARK\SmartparK_Api\Creador proyecto Web\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.csproj.CopyComplete
 C:\Users\Cesar Gutierrez\Desktop\MOVILES\SMARTPARK\SmartparK_Api\Creador proyecto Web\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.dll
 C:\Users\Cesar Gutierrez\Desktop\MOVILES\SMARTPARK\SmartparK_Api\Creador proyecto Web\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.pdb
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.dll
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.pdb
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.csprojAssemblyReference.cache
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.csproj.CoreCompileInputs.cache
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.RazorAssemblyInfo.cache
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.RazorAssemblyInfo.cs
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.AssemblyInfoInputs.cache
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.AssemblyInfo.cs
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Api.deps.json
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Api.runtimeconfig.json
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Api.runtimeconfig.dev.json
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Api.dll
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Api.pdb
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Domain.dll
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Repository.dll
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Service.dll
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Domain.pdb
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Service.pdb
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\bin\Debug\netcoreapp2.2\Parking.Repository.pdb
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.RazorTargetAssemblyInfo.cache
+D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Api\obj\Debug\netcoreapp2.2\Parking.Api.csproj.CopyComplete

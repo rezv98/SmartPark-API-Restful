@@ -1,33 +1,41 @@
 using System.Collections.Generic;
 using Parking.Domain;
+using Parking.Repository;
 
 namespace Parking.Service.Implementation
 {
     public class SpaceService : ISpaceService
     {
+        private ISpaceRepository spaceRepository;
+
+        public SpaceService(ISpaceRepository spaceRepository) {
+
+            this.spaceRepository = spaceRepository;
+        }
+
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return spaceRepository.Delete(id);
         }
 
         public Space Get(int id)
         {
-            throw new System.NotImplementedException();
+            return spaceRepository.Get(id);
         }
 
         public IEnumerable<Space> GetAll()
         {
-            throw new System.NotImplementedException();
+            return spaceRepository.GetAll();
         }
 
         public bool Save(Space entity)
         {
-            throw new System.NotImplementedException();
+            return spaceRepository.Save(entity);
         }
 
         public bool Update(Space entity)
         {
-            throw new System.NotImplementedException();
+            return spaceRepository.Update(entity);
         }
     }
 }

@@ -1,33 +1,41 @@
 using System.Collections.Generic;
 using Parking.Domain;
+using Parking.Repository;
 
 namespace Parking.Service.Implementation
 {
     public class OwnerService : IOwnerService
     {
+        private IOwnerRepository ownerRepository;
+
+        public OwnerService(IOwnerRepository ownerRepository) {
+
+            this.ownerRepository = ownerRepository;
+        }
+
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return ownerRepository.Delete(id);
         }
 
         public Owner Get(int id)
         {
-            throw new System.NotImplementedException();
+            return ownerRepository.Get(id);
         }
 
         public IEnumerable<Owner> GetAll()
         {
-            throw new System.NotImplementedException();
+            return ownerRepository.GetAll();
         }
 
         public bool Save(Owner entity)
         {
-            throw new System.NotImplementedException();
+            return ownerRepository.Save(entity);
         }
 
         public bool Update(Owner entity)
         {
-            throw new System.NotImplementedException();
+            return ownerRepository.Update(entity);
         }
     }
 }

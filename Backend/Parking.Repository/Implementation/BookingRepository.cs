@@ -1,33 +1,95 @@
 using System.Collections.Generic;
+using System.Linq;
 using Parking.Domain;
+using Parking.Repository.Context;
 
 namespace Parking.Repository.Implementation
 {
     public class BookingRepository : IBookingRepository
     {
+        private ApplicationDbContext context;
+        public BookingRepository(ApplicationDbContext context) {
+
+            this.context = context;
+        }
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                var booking = context.bookings.Single(x => x.Id == id);
+                context.Remove(booking);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
+            return true;
         }
 
         public Booking Get(int id)
         {
-            throw new System.NotImplementedException();
+            var result = new Booking();
+            try
+            {
+                result = context.bookings.Single(x => x.Id == id);
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+            return result;
         }
 
         public IEnumerable<Booking> GetAll()
         {
-            throw new System.NotImplementedException();
+            var result = new List<Booking>();
+            try
+            {
+                result = context.bookings.ToList();
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+            return result;
         }
 
         public bool Save(Booking entity)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                context.Add(entity);
+                context.SaveChanges();
+              
+            }
+            catch (System.Exception)
+            {
+                
+                return false;
+            }
+            return true;
         }
 
         public bool Update(Booking entity)
         {
-            throw new System.NotImplementedException();
+            try{
+                
+                var booking =context.bookings.Single(x => x.Id == entity.Id);
+                booking.Id = entity.Id;
+                booking.ArrivingTime = entity.ArrivingTime;
+                booking.Status = entity.Status;
+                
+                context.Update(booking);
+                context.SaveChanges();
+
+            }catch(System.Exception){
+                return false;
+
+            }
+            return true;
         }
     }
 }

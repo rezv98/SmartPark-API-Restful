@@ -1,33 +1,42 @@
 using System.Collections.Generic;
 using Parking.Domain;
+using Parking.Repository;
 
 namespace Parking.Service.Implementation
 {
     public class BookingService : IBookingService
     {
+        private IBookingRepository bookingRepository;
+
+        public BookingService(IBookingRepository bookingRepository) {
+
+            this.bookingRepository = bookingRepository;
+        
+        }
+
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return bookingRepository.Delete(id);
         }
 
         public Booking Get(int id)
         {
-            throw new System.NotImplementedException();
+            return bookingRepository.Get(id);
         }
 
         public IEnumerable<Booking> GetAll()
         {
-            throw new System.NotImplementedException();
+            return bookingRepository.GetAll();
         }
 
         public bool Save(Booking entity)
         {
-            throw new System.NotImplementedException();
+            return bookingRepository.Save(entity);
         }
 
         public bool Update(Booking entity)
         {
-            throw new System.NotImplementedException();
+            return bookingRepository.Update(entity);
         }
     }
 }

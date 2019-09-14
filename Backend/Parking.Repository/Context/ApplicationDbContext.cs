@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 
+
 namespace Parking.Repository.Context
 {
     public class ApplicationDbContext: DbContext

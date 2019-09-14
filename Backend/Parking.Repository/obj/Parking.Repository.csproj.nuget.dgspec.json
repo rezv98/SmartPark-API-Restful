@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Repository\\Parking.Repository.csproj": {}
+    "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Repository\\Parking.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
+    "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\Parking.Domain.csproj",
+        "projectUniqueName": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj",
         "projectName": "Parking.Domain",
-        "projectPath": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\Parking.Domain.csproj",
-        "packagesPath": "C:\\Users\\Cesar Gutierrez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\obj\\",
+        "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj",
+        "packagesPath": "C:\\Users\\Jose4\\.nuget\\packages\\",
+        "outputPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cesar Gutierrez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,20 +56,20 @@
         }
       }
     },
-    "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Repository\\Parking.Repository.csproj": {
+    "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Repository\\Parking.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Repository\\Parking.Repository.csproj",
+        "projectUniqueName": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Repository\\Parking.Repository.csproj",
         "projectName": "Parking.Repository",
-        "projectPath": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Repository\\Parking.Repository.csproj",
-        "packagesPath": "C:\\Users\\Cesar Gutierrez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Repository\\obj\\",
+        "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Repository\\Parking.Repository.csproj",
+        "packagesPath": "C:\\Users\\Jose4\\.nuget\\packages\\",
+        "outputPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cesar Gutierrez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,14 +77,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
-                "projectPath": "C:\\Users\\Cesar Gutierrez\\Desktop\\MOVILES\\SMARTPARK\\SmartparK_Api\\Creador proyecto Web\\Backend\\Parking.Domain\\Parking.Domain.csproj"
+              "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
+                "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj"
               }
             }
           }
@@ -99,6 +97,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[2.2.4, )"
@@ -108,6 +110,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [

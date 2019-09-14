@@ -1,33 +1,41 @@
 using System.Collections.Generic;
 using Parking.Domain;
+using Parking.Repository;
 
 namespace Parking.Service.Implementation
 {
     public class RateService : IRateService
     {
+        private IRateRepository rateRepository;
+
+        public RateService(IRateRepository rateRepository) {
+
+            this.rateRepository = rateRepository;
+        }
+
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return rateRepository.Delete(id);
         }
 
         public Rate Get(int id)
         {
-            throw new System.NotImplementedException();
+            return rateRepository.Get(id);
         }
 
         public IEnumerable<Rate> GetAll()
         {
-            throw new System.NotImplementedException();
+            return rateRepository.GetAll();
         }
 
         public bool Save(Rate entity)
         {
-            throw new System.NotImplementedException();
+            return rateRepository.Save(entity);
         }
 
         public bool Update(Rate entity)
         {
-            throw new System.NotImplementedException();
+            return rateRepository.Update(entity);
         }
     }
 }
