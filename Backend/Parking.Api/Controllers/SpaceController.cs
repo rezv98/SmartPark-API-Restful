@@ -3,7 +3,7 @@ using Parking.Service;
 using Microsoft.AspNetCore.Mvc;
 namespace Parking.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/spaces")]
     [ApiController]
     public class SpaceController:ControllerBase
     {

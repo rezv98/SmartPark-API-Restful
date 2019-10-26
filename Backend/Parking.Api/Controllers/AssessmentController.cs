@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Parking.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/assessments")]
     [ApiController]
     public class AssessmentController:ControllerBase
     {
