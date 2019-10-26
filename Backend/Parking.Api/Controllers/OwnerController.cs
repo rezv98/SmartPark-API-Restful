@@ -3,7 +3,7 @@ using Parking.Service;
 using Microsoft.AspNetCore.Mvc;
 namespace Parking.Api.Controllers
 {
-    [Route("api/owners)]
+    [Route("api/owners")]
     [ApiController]
     public class OwnerController:ControllerBase
     {
