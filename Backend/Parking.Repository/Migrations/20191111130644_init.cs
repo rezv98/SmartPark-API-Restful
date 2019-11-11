@@ -143,23 +143,24 @@ namespace Parking.Repository.Migrations
                     Tag = table.Column<string>(nullable: true),
                     Available = table.Column<bool>(nullable: false),
                     ParkingsId = table.Column<int>(nullable: false),
-                    DriverId = table.Column<int>(nullable: false)
+                    DriverId = table.Column<int>(nullable: false),
+                    VehicleId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_spaces", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_spaces_drivers_DriverId",
-                        column: x => x.DriverId,
-                        principalTable: "drivers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_spaces_parkings_ParkingsId",
                         column: x => x.ParkingsId,
                         principalTable: "parkings",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_spaces_vehicles_VehicleId",
+                        column: x => x.VehicleId,
+                        principalTable: "vehicles",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -216,14 +217,14 @@ namespace Parking.Repository.Migrations
                 column: "OwnerId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_spaces_DriverId",
-                table: "spaces",
-                column: "DriverId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_spaces_ParkingsId",
                 table: "spaces",
                 column: "ParkingsId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_spaces_VehicleId",
+                table: "spaces",
+                column: "VehicleId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_vehicles_DriverId",
@@ -246,16 +247,16 @@ namespace Parking.Repository.Migrations
                 name: "spaces");
 
             migrationBuilder.DropTable(
-                name: "vehicles");
-
-            migrationBuilder.DropTable(
                 name: "parkings");
 
             migrationBuilder.DropTable(
-                name: "drivers");
+                name: "vehicles");
 
             migrationBuilder.DropTable(
                 name: "owners");
+
+            migrationBuilder.DropTable(
+                name: "drivers");
         }
     }
 }

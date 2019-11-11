@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj": {}
+    "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Domain\\Parking.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
+    "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj",
+        "projectUniqueName": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Domain\\Parking.Domain.csproj",
         "projectName": "Parking.Domain",
-        "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj",
+        "projectPath": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Domain\\Parking.Domain.csproj",
         "packagesPath": "C:\\Users\\Jose4\\.nuget\\packages\\",
-        "outputPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\obj\\",
+        "outputPath": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

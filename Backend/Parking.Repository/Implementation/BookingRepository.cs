@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using Parking.Domain;
 using Parking.Repository.Context;
 
@@ -32,7 +33,7 @@ namespace Parking.Repository.Implementation
             var result = new Booking();
             try
             {
-                result = context.bookings.Single(x => x.Id == id);
+                result = context.bookings.Include(x=>x.Space).Single(x => x.Id == id);
             }
             catch (System.Exception)
             {
@@ -47,7 +48,7 @@ namespace Parking.Repository.Implementation
             var result = new List<Booking>();
             try
             {
-                result = context.bookings.ToList();
+                result = context.bookings.Include(x=>x.Vehicle).ToList();
             }
             catch (System.Exception)
             {

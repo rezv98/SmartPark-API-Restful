@@ -10,7 +10,7 @@ using Parking.Repository.Context;
 namespace Parking.Repository.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190914063059_init")]
+    [Migration("20191111130644_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -166,11 +166,13 @@ namespace Parking.Repository.Migrations
 
                     b.Property<string>("Tag");
 
+                    b.Property<int?>("VehicleId");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("DriverId");
-
                     b.HasIndex("ParkingsId");
+
+                    b.HasIndex("VehicleId");
 
                     b.ToTable("spaces");
                 });
@@ -229,15 +231,14 @@ namespace Parking.Repository.Migrations
 
             modelBuilder.Entity("Parking.Domain.Space", b =>
                 {
-                    b.HasOne("Parking.Domain.Driver", "Driver")
-                        .WithMany()
-                        .HasForeignKey("DriverId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
                     b.HasOne("Parking.Domain.Parkings", "Parkings")
                         .WithMany()
                         .HasForeignKey("ParkingsId")
                         .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Parking.Domain.Vehicle", "Vehicle")
+                        .WithMany()
+                        .HasForeignKey("VehicleId");
                 });
 
             modelBuilder.Entity("Parking.Domain.Vehicle", b =>

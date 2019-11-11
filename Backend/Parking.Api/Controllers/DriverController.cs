@@ -41,5 +41,13 @@ namespace Parking.Api.Controllers
                 driverService.Delete(id)
             );
         }
+
+         [HttpGet("{id}/vehicles")]
+        public ActionResult GetVehicles(int id)
+        {
+            return Ok(
+                driverService.GetVehicles(id)
+            );
+        }
     }
 }

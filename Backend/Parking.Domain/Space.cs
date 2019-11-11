@@ -7,7 +7,7 @@ namespace Parking.Domain
         public bool Available{get; set;}
         public int ParkingsId { get; set; }
         public Parkings Parkings { get; set; }
-        public int DriverId { get; set; }
-        public Driver Driver { get; set; }
+        public int VehicleId { get; set; }
+        public Vehicle Vehicle { get; set; }
     }
 }

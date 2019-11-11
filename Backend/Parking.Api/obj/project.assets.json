@@ -12323,11 +12323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Api\\Parking.Api.csproj",
+      "projectUniqueName": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Api\\Parking.Api.csproj",
       "projectName": "Parking.Api",
-      "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Api\\Parking.Api.csproj",
+      "projectPath": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Api\\Parking.Api.csproj",
       "packagesPath": "C:\\Users\\Jose4\\.nuget\\packages\\",
-      "outputPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Api\\obj\\",
+      "outputPath": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12346,11 +12346,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
-              "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Domain\\Parking.Domain.csproj"
+            "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Domain\\Parking.Domain.csproj": {
+              "projectPath": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Domain\\Parking.Domain.csproj"
             },
-            "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Service\\Parking.Service.csproj": {
-              "projectPath": "D:\\Enciclopedia\\Universidad\\App Moviles\\API\\Backend\\Parking.Service\\Parking.Service.csproj"
+            "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Service\\Parking.Service.csproj": {
+              "projectPath": "D:\\Enciclopedia\\Universidad\\Moviles API\\SmartPark-API-Restful\\Backend\\Parking.Service\\Parking.Service.csproj"
             }
           }
         }

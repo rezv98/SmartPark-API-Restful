@@ -28,6 +28,11 @@ namespace Parking.Service.Implementation
             return driverRepository.GetAll();
         }
 
+        public IEnumerable<Vehicle> GetVehicles(int id)
+        {
+            return driverRepository.GetVehicles(id);
+        }
+
         public bool Save(Driver entity)
         {
             return driverRepository.Save(entity);

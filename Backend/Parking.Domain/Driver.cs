@@ -8,5 +8,7 @@ namespace Parking.Domain
        
         public long Dni { get; set; }
         public int Cellphone { get; set;}
+
+        
     }
 }

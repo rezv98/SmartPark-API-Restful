@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using Parking.Domain;
 using Parking.Repository.Context;
 
@@ -33,7 +34,7 @@ namespace Parking.Repository.Implementation
             var result = new Parkings();
             try
             {
-                result = context.parkings.Single(x => x.Id == id);
+                result = context.parkings.Include(x=>x.Owner).Single(x => x.Id == id);
             }
             catch (System.Exception)
             {
@@ -48,7 +49,7 @@ namespace Parking.Repository.Implementation
             var result = new List<Parkings>();
             try
             {
-                result = context.parkings.ToList();
+                result = context.parkings.Include(x=>x.Owner).ToList();
             }
             catch (System.Exception)
             {

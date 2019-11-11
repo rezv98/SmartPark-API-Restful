@@ -58,6 +58,21 @@ namespace Parking.Repository.Implementation
             return result;
         }
 
+        public IEnumerable<Vehicle> GetVehicles(int id)
+        {
+            var result= new List<Vehicle>();
+            try
+            {
+                result=context.vehicles.Where(x=>x.DriverId==id).ToList();
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+            return result;
+        }
+
         public bool Save(Driver entity)
         {
             try
