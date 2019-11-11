@@ -69,7 +69,7 @@ namespace Parking.Repository.Implementation
             catch (System.Exception)
             {
                 
-                return false;
+                throw;
             }
             return true;
         }

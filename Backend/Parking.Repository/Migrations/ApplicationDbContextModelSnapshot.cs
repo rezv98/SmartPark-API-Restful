@@ -158,13 +158,11 @@ namespace Parking.Repository.Migrations
 
                     b.Property<bool>("Available");
 
-                    b.Property<int>("DriverId");
-
                     b.Property<int>("ParkingsId");
 
                     b.Property<string>("Tag");
 
-                    b.Property<int?>("VehicleId");
+                    b.Property<int>("VehicleId");
 
                     b.HasKey("Id");
 
@@ -236,7 +234,8 @@ namespace Parking.Repository.Migrations
 
                     b.HasOne("Parking.Domain.Vehicle", "Vehicle")
                         .WithMany()
-                        .HasForeignKey("VehicleId");
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Parking.Domain.Vehicle", b =>

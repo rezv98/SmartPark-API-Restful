@@ -1,6 +1,8 @@
 using Parking.Domain;
 using Parking.Service;
 using Microsoft.AspNetCore.Mvc;
+using Parking.Repository.DTO;
+
 namespace Parking.Api.Controllers
 {
     [Route("api/bookings")]
@@ -20,14 +22,14 @@ namespace Parking.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Booking booking)
+        public ActionResult Post([FromBody] BookingDTO booking)
         {
             return Ok(
                 bookingService.Save(booking)
             );
         }
         [HttpPut]
-        public ActionResult Put([FromBody] Booking booking)
+        public ActionResult Put([FromBody] BookingDTO booking)
         {
             return Ok(
                 bookingService.Update(booking)

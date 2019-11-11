@@ -16,12 +16,3 @@ D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Domain\obj\Debug\net
 D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.AssemblyInfo.cs
 D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.dll
 D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.pdb
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\bin\Debug\netstandard2.0\Parking.Domain.deps.json
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\bin\Debug\netstandard2.0\Parking.Domain.dll
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\bin\Debug\netstandard2.0\Parking.Domain.pdb
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.csprojAssemblyReference.cache
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.csproj.CoreCompileInputs.cache
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.AssemblyInfoInputs.cache
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.AssemblyInfo.cs
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.dll
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Domain\obj\Debug\netstandard2.0\Parking.Domain.pdb

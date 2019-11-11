@@ -10,7 +10,7 @@ using Parking.Repository.Context;
 namespace Parking.Repository.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20191111130644_init")]
+    [Migration("20191111183919_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -160,13 +160,11 @@ namespace Parking.Repository.Migrations
 
                     b.Property<bool>("Available");
 
-                    b.Property<int>("DriverId");
-
                     b.Property<int>("ParkingsId");
 
                     b.Property<string>("Tag");
 
-                    b.Property<int?>("VehicleId");
+                    b.Property<int>("VehicleId");
 
                     b.HasKey("Id");
 
@@ -238,7 +236,8 @@ namespace Parking.Repository.Migrations
 
                     b.HasOne("Parking.Domain.Vehicle", "Vehicle")
                         .WithMany()
-                        .HasForeignKey("VehicleId");
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Parking.Domain.Vehicle", b =>

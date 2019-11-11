@@ -26,17 +26,3 @@ D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Service\obj\Debug\ne
 D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.AssemblyInfoInputs.cache
 D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.AssemblyInfo.cs
 D:\Enciclopedia\Universidad\App Moviles\API\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.csproj.CopyComplete
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\bin\Debug\netstandard2.0\Parking.Service.deps.json
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\bin\Debug\netstandard2.0\Parking.Service.dll
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\bin\Debug\netstandard2.0\Parking.Service.pdb
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\bin\Debug\netstandard2.0\Parking.Domain.dll
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\bin\Debug\netstandard2.0\Parking.Repository.dll
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\bin\Debug\netstandard2.0\Parking.Repository.pdb
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\bin\Debug\netstandard2.0\Parking.Domain.pdb
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.csprojAssemblyReference.cache
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.csproj.CoreCompileInputs.cache
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.AssemblyInfoInputs.cache
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.AssemblyInfo.cs
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.csproj.CopyComplete
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.dll
-D:\Enciclopedia\Universidad\Moviles API\SmartPark-API-Restful\Backend\Parking.Service\obj\Debug\netstandard2.0\Parking.Service.pdb

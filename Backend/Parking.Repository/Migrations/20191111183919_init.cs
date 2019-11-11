@@ -143,8 +143,7 @@ namespace Parking.Repository.Migrations
                     Tag = table.Column<string>(nullable: true),
                     Available = table.Column<bool>(nullable: false),
                     ParkingsId = table.Column<int>(nullable: false),
-                    DriverId = table.Column<int>(nullable: false),
-                    VehicleId = table.Column<int>(nullable: true)
+                    VehicleId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -160,7 +159,7 @@ namespace Parking.Repository.Migrations
                         column: x => x.VehicleId,
                         principalTable: "vehicles",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(

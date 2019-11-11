@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Parking.Domain;
 using Parking.Repository;
+using Parking.Repository.DTO;
 
 namespace Parking.Service.Implementation
 {
@@ -19,22 +20,22 @@ namespace Parking.Service.Implementation
             return bookingRepository.Delete(id);
         }
 
-        public Booking Get(int id)
+        public BookingDTO Get(int id)
         {
             return bookingRepository.Get(id);
         }
 
-        public IEnumerable<Booking> GetAll()
+        public IEnumerable<BookingDTO> GetAll()
         {
             return bookingRepository.GetAll();
         }
 
-        public bool Save(Booking entity)
+        public bool Save(BookingDTO entity)
         {
             return bookingRepository.Save(entity);
         }
 
-        public bool Update(Booking entity)
+        public bool Update(BookingDTO entity)
         {
             return bookingRepository.Update(entity);
         }
